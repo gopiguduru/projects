@@ -1,0 +1,85 @@
+.background-container{
+    background-image:url("https://res.cloudinary.com/dhbaavqug/image/upload/v1703746965/Fish-Curry-4_xe22eu.jpg");
+    background-size:cover;
+    width:100vw;
+    padding:10px;
+    padding-bottom:30px;
+   
+}
+
+.heading{
+    color:#2c312377;
+}
+.paragraph{
+    background-color:green;
+    padding:5px;
+    font-size:20px;
+    color:white;
+    font-family:"roboto";
+    border-radius:10px;
+  
+}
+.para{
+    padding-left:10px;
+    padding-right:15px;
+}
+.heading{
+    color:#f8fc1a;
+}
+.paragraph2{
+    background-color:darkgoldenrod;
+    padding:5px;
+    font-size:20px;
+    color:white;
+    font-family:"roboto";
+    border-radius:10px;
+  
+}
+heading{
+    color:blue;
+}
+.paragraph3{
+    background-color:#b07672;
+    padding:5px;
+    font-size:20px;
+    color:white;
+    font-family:"roboto";
+    border-top-right-radius:90px;
+    
+}
+heading{
+    color:blue;
+}
+.paragraph4{
+    background-color:#777cbd;
+    padding:5px;
+    font-size:20px;
+    color:white;
+    font-family:"roboto";
+    border-bottom-right-radius:100px;
+    
+}
+heading{
+    color:whitesmoke;
+}
+.paragraph5{
+    background-color:#0c3323;
+    padding:5px;
+    font-size:20px;
+    color:white;
+    font-family:"roboto";
+    border-bottom-right-radius:100px;
+    border-top-right-radius:100px;
+}
+.custom-button{
+    color:hsl(135, 97%, 55%);
+    height:40px;
+    width:90px;
+    background-color:black;
+    padding:5px;
+    margin-top:10px;
+    
+}
+.button-container{
+    text-align:center;
+}
