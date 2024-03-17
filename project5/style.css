@@ -1,0 +1,167 @@
+*, *::before, *::after 
+{
+    box-sizing: border-box;
+  }
+  
+div#lutemain1 
+{
+    vertical-align: middle;
+    margin-top: 127px;
+    margin-left: 200px;
+    
+}
+div#lutelines 
+{
+    display: inline-block;
+    
+    cursor: pointer;
+    margin-top: 71px;
+    transform: rotate(85deg);
+    border-radius: 20px;
+}
+
+.heading{
+    text-align: end;
+    margin:50px;
+    color:aqua
+}
+
+div#vline1 
+{
+  /* Each string is one div tag */
+    width: 6px; /* string width */
+    background-color: #ffc023; /* string color */
+    height: 100%; /* Override in-line if you want specific height. */
+    float: left;
+    margin-left: 40px;
+    border-radius: 20px;
+    
+}
+
+div#vline2 
+{
+    width: 6px; 
+    background-color: #ffc023; 
+    height: 100%; 
+    float: left;
+    margin-left: 40px;
+    border-radius: 20px;
+
+}
+
+div#vline3 
+{
+
+    width: 6px; 
+    background-color: #ffc023; 
+    height: 100%; 
+    float: left;
+    cursor: pointer;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+
+div#vline4 
+{
+    width: 6px; 
+    background-color: #ffc023; 
+    height: 100%; 
+    float: left;
+    cursor: pointer;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+
+div#vline5 
+{
+    width: 6px; 
+    background-color: #ffc023; 
+    height: 100%;
+    float: left;
+    margin-left: 40px;
+    cursor: pointer;
+    margin-right: 40px;
+    border-radius: 20px;
+}
+
+div#vline1:hover 
+{
+    background-color: #fcfcfc;
+}
+
+div#vline2:hover 
+{
+    background-color:white;
+}
+
+div#vline3:hover 
+{
+    background-color:white;
+}
+
+div#vline4:hover 
+{
+    background-color:white;
+}
+
+div#vline5:hover
+{
+    background-color:white;
+}
+/*
+div#lutecircle 
+{
+    width: 315px;
+    height: 315px;
+    background: #f2f2f2;
+    border: 8px solid #ffc023;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-top: -330px;
+}*/
+body 
+{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.container
+{
+    background-image: url("../project5/imajes/alluarjungtr.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    height:130vh;
+    width: 750px;
+    text-align: center;
+}
+/*
+button {
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    transition: 0.5s;
+    margin-top: 20px;
+    margin-left: 00%;
+} */
+
+button:hover,
+h1:hover {
+    transform: scale(1.1);
+}
+
+button:hover {
+    background-color: #e21336;
+}
+
+#btn {
+    color: rgb(161, 51, 51);
+    font-size: 25px;
+}

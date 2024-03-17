@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js" defer></script>
+    <title>Guitar</title>
+</head>
+
+<body>
+    <div class="container">
+        <div align=center>
+            <h1  class="heading" style="color:aqua;">Play Guitar</h1>
+            <div class="guitar">
+                <div id="lutemain1" align="center">
+                    <div id="lutelines" align="center">
+                        <div id="vline1" align="center" onmouseenter="play('../project5/music/Violin10.mp3')" style="height:400px;" ></div>
+
+                        <div id="vline2" align="center" onmouseenter="play('../project5/music/Violin11.mp3')" style="height:400px;"></div>
+
+                        <div id="vline3" align="center" onmouseenter="play('../project5/music/Violin12.mp3')" style="height:370px;"></div>
+
+                        <div id="vline4" align="center" onmouseenter="play('../project5/music/Violin13.mp3')" style="height:356px;"></div>
+
+                        <div id="vline4" align="center" onmouseenter="play('../project5/music/Violin14.mp3')" style="height:400px;"></div>
+
+                        <div id="vline5" align="center" onmouseenter="play('../project5/music/Violin15.mp3')" style="height:400px;"></div>
+                    </div>
+                    <div id="lutecircle" align="center"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function play(mp3_file) 
+        {
+        var audio = new Audio(mp3_file);
+        audio.play();
+        }
+    </script>
+
+</body>
+
+</html>
